@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <item android:id="@+id/pesquisar"
+            android:icon="@drawable/ic_pesquisar"
+            android:title="Pesquisar"
+            android:showAsAction="always"/>
+
+
+        <item android:id="@+id/novalista"
+            android:icon="@drawable/ic_novalista"
+            android:title="Nova Lista"
+            android:showAsAction="always"/>
+
+
+        <item android:id="@+id/novoprod"
+            android:icon="@drawable/ic_novoprod"
+            android:title="Novo Produto"
+            android:showAsAction="always"/>
+
+
+
+
+        <item android:id="@+id/action_check_updates"
+            android:icon="@drawable/ic_menu"
+            android:title="Menu"
+            android:showAsAction="always">
+            <menu>
+
+                <item android:id="@+id/sair"
+                    android:icon="@drawable/ic_novoprod"
+                    android:title="Sair"/>
+
+
+            </menu>
+
+            </item>
+
+
+
+    </menu>
